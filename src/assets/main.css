@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top:250px;
+    font-family: "Cossette Titre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container h1{
+    margin-left:100px;
+    color:white;
+    
+}
+.container input{
+    border-radius: 20px;
+    height: 25px;
+    width: 300px;
+    margin-right: 40px;
+    position: relative;
+    font-size: 20px;
+   
+}
+.container button{
+    position: absolute;
+    margin-left: -60px;
+    height: 30px;
+    border-radius: 20px;
+    width: 60px;
+    background-color: white;
+    font-size: 20px;
+    
+    cursor: pointer;
+    
+}
+.container button:hover{
+    background-color: #ff0000;
+    height: 30px;
+    border-radius: 20px;
+    width: 60px;
+}
+.list-container {
+    display: grid;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+}
+.list-container li{
+    list-style: '👉';
+    font-size: 22px;
+    
+}
+.list-container button{
+    width: 80px;
+}
+    
+.completed{
+    text-decoration-line: line-through;
+}
+.complete-button{
+ background-color: green;
+ border: none;
+ cursor: pointer;
+
+}
+.edit-button{
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: #b30000;
+    border: none;
+    cursor: pointer;
+    
+}
+.complete-button:hover{
+    background-color: #00e600;
+}
+.edit-button:hover{
+    background-color: #a6a6a6;
+}
+.delete-button:hover{
+    background-color: #ff3333;
+}
+.first{
+    color: red;
+}
+.second{
+    color: orange;
+}
+.third{
+    color: greenyellow;
+}
+.last{
+    color: blue;
+}
